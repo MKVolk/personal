@@ -1,0 +1,32 @@
+1/10/2025
+  Hi, maybe you want to hire me, do it please, I really need the experience, thank you in advance ^^
+
+  Since this repository is public and this account is exclussively made for Job applications and official stuff, this means I may not be able to publish projects that were made under my more popular pseudonym but I like the idea of starting from ground up using only the foundations of web developing (Just html, css, and javascript like the old times).
+
+  It is weird to see the contribiutions table so empty. Gotta fix that
+  
+  The page has been published, there are some many things to do!!!! I have done this before, but I feel kind of rusty. I think it would be helpful to write down what I want to do to set the foundations of the page this week.
+  To do:
+    -Set the barebone HTML Index page with all the elements I will need (basically an interactive CV).
+      -Header (Will maintain the header design on all pages) (CSS: Fixed)
+        -A title
+        -Anchors to other sections of the page
+          -Home (Index)
+          -Blog
+          -Gallery
+          -Projects
+      -Body (Changes in each page)
+        -General Information (Bio)
+        -Contact Information
+        -Experience
+        -Thanks section
+          -[Credit the people that developed the Open Source code I'll use]
+      -Footer (Maintain on all pages) (CSS: Fixed)
+        -Random buttons
+          -[I plan to change the css style files for the page]
+    -Figure out a layout that will fit my needs for this personal page
+      -Adaptative
+        -Since it is a personal page, it must look decent in mobile browsers
+      -Modular
+        -I have great plans for this page and I plan to add some crazy css animations to have some fun, moving things aroude should be as easy as possibl
+    -Reasearch what jekyll is
