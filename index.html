@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang = 'en'>
+<html lang = "en">
   <head>
     <title>Markos's personal Page</title>
-    
+     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="../a/media/Icon.ico">
+    <link id="styleLink" rel="stylesheet" href="../a/css/glowy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
-      <header>
         <div id="pokediv">
             <h1>Markos Calderon</h1>
             <button class="menu" id="menuOpen" onclick="menuBarOpen()" ><i class="fa fa-bars"></i></button>
@@ -18,6 +20,36 @@
             <a onclick="overShadow()" href="../a/gallery"><button>Gallery</button></a>
         </nav>
     </header>
-    </header>
-  </body>
+      <main>
+        <div class="content">
+            <div class="entry">
+                <div class="title">
+                    <h3>About me</h3>
+                    <i>02/15/2025</i>
+                </div>
+                <p>[Insert bio]</p>
+            </div>
+          
+            <div class="entry">
+                <div class="title">
+                    <h3>Test</h3>
+                    <i>02/15/2025</i>
+                </div>
+                <p>This is a test of the first way of presenting content in my page</p>
+            </div>
+          
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div id="fttext">A</div>
+            <div id="stylesheets">
+                <button class="stylechanger" id="css1" onclick="css1Function()"> </button>
+                <button class="stylechanger" id="css2" onclick="css2Function()"> </button>
+                <button class="stylechanger" id="css3" onclick="css3Function()"> </button>
+            </div>
+        </div>
+    </footer>
+</body>
+  <script src="../a/javascript/index.js"></script>
 </html>
