@@ -72,6 +72,7 @@ nav button {
     box-shadow: 0 0 10px 1px #ffffff60;
     border: 1px solid #fff;
     margin: 10px 0 10px 0;
+    border-radius: 5px;
 }
 .entry img {
     min-width: 250px;
@@ -79,6 +80,7 @@ nav button {
     width: 50vw;
     height: 50vw;
     align-self: center;
+    border-radius: 5px;
 }
 .entry .title {
     display:flex;
