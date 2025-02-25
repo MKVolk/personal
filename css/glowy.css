@@ -111,7 +111,7 @@ footer {
     width:20px;
 }
 
-#introTitle{
+.entry .introtitle{
     display:flex;
     flex-direction: column;
 }
