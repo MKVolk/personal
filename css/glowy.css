@@ -111,6 +111,11 @@ footer {
     width:20px;
 }
 
+#introduction{
+    display:flex;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 770px){
     header{
         flex-direction: column;
