@@ -111,7 +111,7 @@ footer {
     width:20px;
 }
 
-#introduction{
+#introTitle{
     display:flex;
     flex-direction: row;
 }
