@@ -113,7 +113,7 @@ footer {
 
 #introTitle{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 770px){
