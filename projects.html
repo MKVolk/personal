@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="../personal/media/huh.ico">
+    <link id="styleLink" rel="stylesheet" href="../personal/css/glowy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div id="pokediv">
+            <h1>Markos</h1>
+            <button class="menu" id="menuOpen" onclick="menuBarOpen()" ><i class="fa fa-bars"></i></button>
+            <button class="menu" id="menuClose" onclick="menuBarClose()" ><i class="fa fa-close"></i></button>
+        </div>
+        <nav id="navBar">
+            <a href="../personal/"><button>Home</button></a>
+            <a href="../personal/blog"><button>Blog</button></a>
+            <a href="../personal/gallery"><button>Gallery</button></a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="content">
+            
+            <div class="entry">
+                <img src="../personal/media/imgp001.jpg" alt="Vector Graphics of a Pet feeder Valve">
+                <div class="title">
+                    <h3>Pet Feeder Valve</h3>
+                    <i></i>
+                </div>
+                <p>I started desgning a Ped feeder</p>
+            </div>
+
+          <div class="entry">
+                <img src="../personal/media/imgp002.jpg" alt="Model of a custome device">
+                <div class="title">
+                    <h3>Tiny device</h3>
+                    <i></i>
+                </div>
+                <p>Small device powered by an ATyny85</p>
+            </div>
+            
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div id="fttext">Gallery</div>
+            <div id="stylesheets">
+                <button class="stylechanger" id="css1" onclick="css1Function()"> </button>
+                <button class="stylechanger" id="css2" onclick="css2Function()"> </button>
+                <button class="stylechanger" id="css3" onclick="css3Function()"> </button>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../personal/javascript/index.js"></script>
+</html>
