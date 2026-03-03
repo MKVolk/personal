@@ -1,8 +1,8 @@
 //Opens menu bar for Mobile miew
 function menuBarOpen (){
-  document.getElementById("navBar").style.height="90px";
+  document.getElementById("navBar").style.height="150px";
   
-  document.getElementById("pokediv").style.paddingBottom="90px";
+  document.getElementById("pokediv").style.paddingBottom="150px";
   document.getElementById("menuOpen").style.display="none";
   document.getElementById("menuClose").style.display="inline";
 }
