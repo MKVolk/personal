@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: montserrat, ubuntu, Helvetica, sans-serif;
     color: #4a4a4a;
     background-color: #eaeaea;
     margin: 0;
@@ -175,6 +175,10 @@ footer {
     nav button{
         width: 90vw;
         border: none;
+        box-shadow: none;
+        border-bottom: solid;
+        border-radius: 0;
+        border-bottom-color: #ccc;
     }
 
     #menuOpen  { display:inline; }
