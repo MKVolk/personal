@@ -22,8 +22,8 @@ function css1Function (){
   document.getElementById("styleLink").href="css/glowy.css";
 }
 function css2Function (){
-  documnet.getElementById("styleLink").href="css/glowy.css";
+  documnet.getElementById("styleLink").href="css/neo.css";
 }
 function css3Function (){
-  document.getElementById("styleLink").href="css/glowy.css";
+  document.getElementById("styleLink").href="css/neo.css";
 }
