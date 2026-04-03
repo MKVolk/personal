@@ -5,6 +5,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'yarndings12';
+  src: url('../fonts/Yarndings12-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bitcount';
+  src: url('../fonts/BitcountSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html{
     font-family: montserrat, Helvetica, sans-serif;
 }
@@ -16,10 +30,8 @@ body {
     margin: 0;
 }
 
-/* */
-button,
-.entry,
-footer {
+
+button, .entry, footer {
     background: #eaeaea;
     border-radius: 12px;
     box-shadow: 
@@ -107,12 +119,10 @@ nav button {
     box-sizing: border-box;
     padding: 0em 0em 5em 0em;
 }
-
 .contentGrid > * {
     min-width: 0;
     overflow: hidden;
 }
-
 .contentFlex{
     display: flex;
     flex-direction: column;
@@ -173,9 +183,8 @@ footer {
     margin: 0 5px;
     width:20px;
     height:20px;
-    box-shadow:
-        4px 4px 8px #c5c8ce,
-        -4px -4px 8px #ffffff;
+    box-shadow: 4px 4px 8px #c5c8ce,
+    -4px -4px 8px #ffffff;
 }
 
 #navBar {
