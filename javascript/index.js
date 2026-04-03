@@ -31,7 +31,12 @@ function setStyle(){
   let theme = getCookie("theme");
 
   if(theme){
-    link.setAttribute("href", theme);
+    if (theme == "dark"){
+      link.setAttribute("href", "css/glowy.css");
+    }
+    if (theme == "light"){
+      link.setAttribute("href", "css/neo.css");
+    }
   }
 
 }
@@ -72,10 +77,10 @@ function toggleTheme(theme1, theme2){
 
   if (current === theme1) {
     link.setAttribute("href", theme2);
-    setCookie("theme","dark",7);
+    setCookie("theme","light",7);
   } else {
     link.setAttribute("href", theme1);
-    setCookie("theme","light",7);
+    setCookie("theme","dark",7);
   }
 }
 
