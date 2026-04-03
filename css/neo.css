@@ -95,8 +95,6 @@ nav button {
 .contentFlex{
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin: 15px 0;
 }
 
 .entry {
