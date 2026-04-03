@@ -59,6 +59,8 @@ export function genHeader(title) {
     // append everything to header
     header.appendChild(pokeDiv);
     header.appendChild(nav);
+
+    console.log("genHeader() executed"); //DEBUG
 }
 
 export function genFooter(route) {
@@ -92,4 +94,6 @@ export function genFooter(route) {
 
     // append to footer
     footer.appendChild(footerDiv);
+
+    console.log("genFooter() executed"); //DEBUG
 }
