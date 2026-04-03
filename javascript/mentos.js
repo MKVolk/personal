@@ -62,22 +62,22 @@ export function genHeader(title) {
     header.appendChild(pokeDiv);
     header.appendChild(nav);
 
-    console.log("genHeader() executed"); //DEBUG
+    //console.log("genHeader() executed"); //DEBUG
 }
 
 export function genFooter(route) {
     const footer = document.querySelector("footer");
 
-    // --- div.footer ---
+    // div.footer 
     const footerDiv = document.createElement("div");
     footerDiv.className = "footer";
 
-    // --- div#fttext ---
+    // div#fttext 
     const ftText = document.createElement("div");
     ftText.id = "fttext";
     ftText.textContent = route || "";
 
-    // --- div#stylesheets ---
+    // div#stylesheets
     const stylesheets = document.createElement("div");
     stylesheets.id = "stylesheets";
 
@@ -94,8 +94,7 @@ export function genFooter(route) {
     footerDiv.appendChild(ftText);
     footerDiv.appendChild(stylesheets);
 
-    // append to footer
     footer.appendChild(footerDiv);
 
-    console.log("genFooter() executed"); //DEBUG
+    //console.log("genFooter() executed"); //DEBUG
 }

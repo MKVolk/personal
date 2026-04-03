@@ -2,10 +2,10 @@ import { genHeader, genFooter } from "./mentos.js";
 
 // Mentos Generator
 function mentos(title, route){
+  setStyle();
   genHeader(title);
   genFooter(route);
-  setStyle();
-  console.log("mentos() executed"); //DEBUG
+  //console.log("mentos() executed"); //DEBUG
 };
 
 // Utils
@@ -103,5 +103,5 @@ window.toggleTheme = function () {
 
 document.addEventListener("DOMContentLoaded", () => {
   mentos('Markos Calderon','');
-  console.log("Content Loaded");
+  //console.log("Content Loaded");
 });
