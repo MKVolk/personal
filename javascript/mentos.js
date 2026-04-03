@@ -14,8 +14,8 @@ export function genHeader(title) {
     const menuOpen = document.createElement("button");
     menuOpen.className = "menu";
     menuOpen.id = "menuOpen";
-    //menuOpen.setAttribute("onclick", "menuBarOpen()");
-    menuOpen.addEventListener("click", menuBarOpen);
+    menuOpen.setAttribute("onclick", "menuBarOpen()");
+    //menuOpen.addEventListener("click", menuBarOpen);
 
     const openIcon = document.createElement("i");
     openIcon.className = "fa fa-bars";
@@ -25,8 +25,8 @@ export function genHeader(title) {
     const menuClose = document.createElement("button");
     menuClose.className = "menu";
     menuClose.id = "menuClose";
-    //menuClose.setAttribute("onclick", "menuBarClose()");
-    menuClose.addEventListener("click", menuBarClose);
+    menuClose.setAttribute("onclick", "menuBarClose()");
+    //menuClose.addEventListener("click", menuBarClose);
 
     const closeIcon = document.createElement("i");
     closeIcon.className = "fa fa-close";

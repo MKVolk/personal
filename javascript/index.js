@@ -50,7 +50,7 @@ function toggleTheme(theme1, theme2){
 
 }
 
-/*
+
 window.menuBarOpen = function () {
   menuBarOpen();
 };
@@ -61,7 +61,7 @@ window.menuBarClose = function () {
 
 window.toggleTheme = function (theme1, theme2) {
   toggleTheme(theme1, theme2);
-};*/
+};
 
 document.addEventListener("DOMContentLoaded", () => {
   mentos('','');
