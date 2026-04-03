@@ -4,8 +4,37 @@ import { genHeader, genFooter } from "./mentos.js";
 function mentos(title, route){
   genHeader(title);
   genFooter(route);
-  console.log("mentos() executed")
+  console.log("mentos() executed"); //DEBUG
 };
+
+// Utils
+function setCookie(name, value, daysToLive) {
+    const date = new Date();
+    date.setTime(date.getTime() + (daysToLive * 24 * 60 * 60 * 1000));
+    let expires = "expires=" + date.toUTCString();
+    document.cookie = `${name}=${value}; ${expires}; path=/`;
+}
+
+function getCookie(name) {
+    let nameEQ = name + "=";
+    let ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i].trim();
+        if (c.indexOf(nameEQ) === 0) {
+            return c.substring(nameEQ.length, c.length); // value
+        }
+    }
+    return null;
+}
+
+function setStyle(){
+  let theme = getCookie("theme");
+
+  if(theme){
+    link.setAttribute("href", theme);
+  }
+
+}
 
 //Opens menu bar for Mobile miew
 function menuBarOpen (){
@@ -43,8 +72,10 @@ function toggleTheme(theme1, theme2){
 
   if (current === theme1) {
     link.setAttribute("href", theme2);
+    setCookie("theme","dark",7);
   } else {
     link.setAttribute("href", theme1);
+    setCookie("theme","light",7);
   }
 }
 
