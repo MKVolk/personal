@@ -117,7 +117,6 @@ nav button {
 .contentGrid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
     width: 100%;
     box-sizing: border-box;
     padding: 0em 0em 5em 0em;
