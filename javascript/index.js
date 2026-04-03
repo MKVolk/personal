@@ -50,6 +50,14 @@ function toggleTheme(theme1, theme2){
 
 }
 
+window.menuBarOpen = function () {
+  menuBarOpen();
+};
+
+window.menuBarClose = function () {
+  menuBarClose()
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   mentos('','');
   console.log("Content Loaded");
