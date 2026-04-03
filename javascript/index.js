@@ -62,6 +62,6 @@ window.toggleTheme = function () {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  mentos('','');
+  mentos('Markos Calderon','');
   console.log("Content Loaded");
 });
