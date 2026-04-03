@@ -157,6 +157,11 @@ footer {
         -4px -4px 8px #ffffff;
 }
 
+#navBar {
+    height: 150px; 
+    overflow-y: hidden;
+}
+
 /* Mobile :3 */
 @media screen and (max-width: 770px){
     header{
