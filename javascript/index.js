@@ -59,8 +59,8 @@ window.menuBarClose = function () {
   menuBarClose();
 };
 
-window.toggleTheme = function (theme1, theme2) {
-  toggleTheme(theme1, theme2);
+window.toggleTheme = function () {
+  toggleTheme('css/glowy.css','css/neo.css');
 };
 
 document.addEventListener("DOMContentLoaded", () => {
