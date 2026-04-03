@@ -1,4 +1,3 @@
-import { createElement } from "react";
 
 export function genHeader(title) {
     const header = document.querySelector("header");
