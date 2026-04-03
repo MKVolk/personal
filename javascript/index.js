@@ -35,19 +35,17 @@ function css2Function (){
 }
 
 function toggleTheme(theme1, theme2){
+  const link = document.querySelector("link[rel='stylesheet']");
 
-  if(document.getElementById("styleLink").href === theme1){
-    document.getElementById("styleLink").href = theme2;
-    console.log(`Setting Style to: ${theme1}`);
+  if (!link) return;
 
-  } else if(document.getElementById("styleLink").href === theme2){
-    document.getElementById("styleLink").href = theme2;
-    console.log(`Setting Style to: ${theme2}`);
+  const current = link.getAttribute("href");
 
-  } else{
-    console.log("Original Stylesheet is different");
+  if (current === theme1) {
+    link.setAttribute("href", theme2);
+  } else {
+    link.setAttribute("href", theme1);
   }
-
 }
 
 
