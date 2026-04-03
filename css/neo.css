@@ -87,16 +87,23 @@ nav button {
 }
 
 /* Content */
-.content{
+.contentGrid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.contentFlex{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 15px 0;
 }
 
 .entry {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: 15px 15px;
+    margin: 15px;
 }
 
 .entry img {

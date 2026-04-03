@@ -61,19 +61,26 @@ nav button {
     font-size: 1em;
 }
 
-.content{
+/* Content */
+.contentGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.contentFlex{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 1em 1em 4em 1em;
+    padding: 20px;
+    margin: 15px 0;
 }
+
 .entry {
     display: flex;
     flex-direction: column;
     padding: 10px;
     box-shadow: 0 0 10px 1px #ffffff60;
     border: 1px solid #fff;
-    margin: 10px 0 10px 0;
+    margin: 15px;
     border-radius: 5px;
 }
 .entry img {
