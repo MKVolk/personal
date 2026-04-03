@@ -14,6 +14,7 @@ export function genHeader(title) {
     const menuOpen = document.createElement("button");
     menuOpen.className = "menu";
     menuOpen.id = "menuOpen";
+    //menuOpen.setAttribute("onclick", "menuBarOpen()");
     menuOpen.setAttribute("onclick", "menuBarOpen()");
 
     const openIcon = document.createElement("i");
@@ -24,6 +25,7 @@ export function genHeader(title) {
     const menuClose = document.createElement("button");
     menuClose.className = "menu";
     menuClose.id = "menuClose";
+    //menuClose.setAttribute("onclick", "menuBarClose()");
     menuClose.setAttribute("onclick", "menuBarClose()");
 
     const closeIcon = document.createElement("i");
