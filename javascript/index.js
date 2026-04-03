@@ -55,7 +55,11 @@ window.menuBarOpen = function () {
 };
 
 window.menuBarClose = function () {
-  menuBarClose()
+  menuBarClose();
+};
+
+window.toggleTheme = function (theme1, theme2) {
+  toggleTheme(theme1, theme2);
 };
 
 document.addEventListener("DOMContentLoaded", () => {
