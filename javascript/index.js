@@ -4,6 +4,7 @@ import { genHeader, genFooter } from "./mentos.js";
 function mentos(title, route){
   genHeader(title);
   genFooter(route);
+  setStyle();
   console.log("mentos() executed"); //DEBUG
 };
 
