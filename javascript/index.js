@@ -1,3 +1,11 @@
+import { genHeader, genFooter } from "./mentos.js";
+
+// Mentos Generator
+function mentos(title, route){
+  genHeader(title);
+  genFooter(route);
+};
+
 //Opens menu bar for Mobile miew
 function menuBarOpen (){
   document.getElementById("navBar").style.height="150px";
@@ -22,8 +30,26 @@ function css1Function (){
   document.getElementById("styleLink").href="css/glowy.css";
 }
 function css2Function (){
-  documnet.getElementById("styleLink").href="css/neo.css";
-}
-function css3Function (){
   document.getElementById("styleLink").href="css/neo.css";
 }
+
+function toggleTheme(theme1, theme2){
+
+  if(document.getElementById("styleLink").href === theme1){
+    document.getElementById("styleLink").href = theme2;
+    console.log(`Setting Style to: ${theme1}`);
+
+  } else if(document.getElementById("styleLink").href === theme2){
+    document.getElementById("styleLink").href = theme2;
+    console.log(`Setting Style to: ${theme2}`);
+
+  } else{
+    console.log("Original Stylesheet is different");
+  }
+
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  mentos('','');
+  console.log("Content Loader");
+});
