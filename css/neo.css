@@ -88,17 +88,15 @@ nav button {
 
 /* Content */
 .content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 1em 1em 4em 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .entry {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: 15px 0;
+    margin: 15px 15px;
 }
 
 .entry img {
@@ -148,7 +146,6 @@ footer {
 }
 
 .stylechanger {
-    border-radius: 50%;
     margin: 0 5px;
     width:20px;
     height:20px;
