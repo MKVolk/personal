@@ -88,6 +88,9 @@ header {
     align-items:center;
     transition: 0.5s
 }
+#pokediv > h1{
+    font-family: bitcount, montserrat, ubuntu, Helvetica, sans-serif;
+}
 
 .menu {
     border: none;
