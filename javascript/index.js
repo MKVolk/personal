@@ -4,6 +4,7 @@ import { genHeader, genFooter } from "./mentos.js";
 function mentos(title, route){
   genHeader(title);
   genFooter(route);
+  console.log("mentos() executed")
 };
 
 //Opens menu bar for Mobile miew
@@ -51,5 +52,5 @@ function toggleTheme(theme1, theme2){
 
 document.addEventListener("DOMContentLoaded", () => {
   mentos('','');
-  console.log("Content Loader");
+  console.log("Content Loaded");
 });
