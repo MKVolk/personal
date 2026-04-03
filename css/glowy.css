@@ -1,3 +1,7 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
 body {
     font-family: Helvetica, sans-serif;
     color: #bbbaba;
@@ -25,7 +29,7 @@ a:visited {
     color:#ffff00;
 }
 a:hover {
-    shadow: 0px 0px 5px #ffffff
+    text-shadow: 0px 0px 5px #ffffff
 }
 header {
     font-family: Helvetica, sans-serif;
@@ -84,12 +88,10 @@ nav button {
     border-radius: 5px;
 }
 .entry img {
-    min-width: 250px;
-    min-height: 250px;
-    width: 50vw;
-    height: 50vw;
+    max-width: 100%;
+    max-height: 30rem;
     align-self: center;
-    border-radius: 5px;
+    border-radius: 12px;
 }
 .entry .title {
     display:flex;
