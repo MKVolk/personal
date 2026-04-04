@@ -1,4 +1,3 @@
 # Personal
-Personal page
+Hi, This is my personal page I am hosting here in Github Webpages
 
-It is on pause since I decided to take an unhealthy quantity of courses to comply with my scholarship requirements
