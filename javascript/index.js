@@ -2,7 +2,7 @@ import { genHeader, genFooter } from "./mentos.js";
 
 // Mentos Generator
 function mentos(title, route){
-  setStyle();
+  //setStyle();
   genHeader(title);
   genFooter(route);
   //console.log("mentos() executed"); //DEBUG

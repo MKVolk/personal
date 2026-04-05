@@ -4,6 +4,16 @@
     <title>Markos's personal Page</title>
      <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
     <link rel="icon" type="image/x-icon" href="media/KatIcon.ico">
+    <script>
+    (function () {
+      const theme = document.cookie.split('; ').find(row => row.startsWith('theme='))?.split('=')[1];
+      if (theme === 'dark') {
+        document.write('<link rel="stylesheet" href="dark.css">');
+      } else {
+        document.write('<link rel="stylesheet" href="light.css">');
+      }
+    })();
+    </script>
     <!-- <link id="styleLink" rel="stylesheet" href="css/glowy.css"> -->
     <!--<link id="styleLink" rel="stylesheet" href="css/neo.css"> -->
     <link id="styleLink" rel="stylesheet">
