@@ -144,11 +144,6 @@ nav button {
     border-radius: 12px;
 }
 
-.entry .title {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .entry .introtitle{
     display:flex;
