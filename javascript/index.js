@@ -42,7 +42,7 @@ function setStyle(){
       link.setAttribute("href", "css/neo.css");
     }
   }
-
+  console.log("SetStyle() Executed") //DEBUG
 }
 
 //Opens menu bar for Mobile miew
@@ -94,13 +94,13 @@ window.toggleTheme = function () {
   toggleTheme('css/glowy.css','css/neo.css');
 };
 
-window.menuBarOpen = function () {
+window.overShadow = function () {
   overShadow();
 };
 
 document.addEventListener("DOMContentLoaded", () => {
 let path = window.location.pathname;
 
-  mentos('Markos Calderon','path');
+  mentos('Markos Calderon', path);
   //console.log("Content Loaded");
 });
