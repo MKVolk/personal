@@ -8,9 +8,9 @@
     (function () {
       const theme = document.cookie.split('; ').find(row => row.startsWith('theme='))?.split('=')[1];
       if (theme === 'dark') {
-        document.write('<link rel="stylesheet" href="dark.css">');
+        document.write('<link rel="stylesheet" href="css/glowy.css">');
       } else {
-        document.write('<link rel="stylesheet" href="light.css">');
+        document.write('<link rel="stylesheet" href="css/neo.css">');
       }
     })();
     </script>
