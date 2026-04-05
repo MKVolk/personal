@@ -4,7 +4,17 @@
     <title>Redirect</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
     <meta http-equiv = "refresh" content = "3; url = https://www.linkedin.com/in/markoscalderoncastro/" />
-    <link rel="icon" type="image/x-icon" href="media/Icon.ico">
+    <link rel="icon" type="image/x-icon" href="media/KatIcon.ico">
+    <script>
+    (function () {
+      const theme = document.cookie.split('; ').find(row => row.startsWith('theme='))?.split('=')[1];
+      if (theme === 'dark') {
+        document.write('<link rel="stylesheet" href="css/glowy.css">');
+      } else {
+        document.write('<link rel="stylesheet" href="css/neo.css">');
+      }
+    })();
+    </script>
     <link id="styleLink" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
