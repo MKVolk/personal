@@ -221,4 +221,12 @@ footer {
 @media screen and (min-width: 771px){
     #menuOpen  { display:none; }
     #menuClose { display:none; }
+
+    #pokediv{
+        padding-bottom: 0px;
+    }
+
+    .menu{
+        display:none;
+    }
 }
