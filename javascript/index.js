@@ -64,13 +64,6 @@ function menuBarClose (){
 function overShadow (){
   document.getElementById("navBar").style.overflowY="overflow";
 }
-//Replaces the CSS file [Not working right now]
-function css1Function (){
-  document.getElementById("styleLink").href="css/glowy.css";
-}
-function css2Function (){
-  document.getElementById("styleLink").href="css/neo.css";
-}
 
 function toggleTheme(theme1, theme2){
   const link = document.querySelector("link[rel='stylesheet']");
@@ -88,7 +81,7 @@ function toggleTheme(theme1, theme2){
   }
 }
 
-
+// Set all global functions to comply with module scope
 window.menuBarOpen = function () {
   menuBarOpen();
 };
@@ -101,7 +94,13 @@ window.toggleTheme = function () {
   toggleTheme('css/glowy.css','css/neo.css');
 };
 
+window.menuBarOpen = function () {
+  overShadow();
+};
+
 document.addEventListener("DOMContentLoaded", () => {
-  mentos('Markos Calderon','');
+let path = window.location.pathname;
+
+  mentos('Markos Calderon','path');
   //console.log("Content Loaded");
 });
