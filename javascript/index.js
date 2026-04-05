@@ -30,7 +30,8 @@ function getCookie(name) {
 
 function setStyle(){
   let theme = getCookie("theme");
-  const link = document.querySelector("link[rel='stylesheet']");
+  //const link = document.querySelector("link[rel='stylesheet']");
+  const link = document.querySelector("link#styleLink[rel='stylesheet']");
 
   if (!link) return;
 
