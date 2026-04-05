@@ -146,6 +146,7 @@ footer {
 #fttext {
     width:fit-content;
     padding: 0;
+    font-family: yarndings12, montserrat, sans-serif;
 }
 #stylesheets {
     display:flex;
