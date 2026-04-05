@@ -42,6 +42,9 @@ function setStyle(){
       link.setAttribute("href", "css/neo.css");
     }
   }
+  else{
+    link.setAttribute("href", "css/neo.css"); //default theme
+  }
   console.log("SetStyle() Executed") //DEBUG
 }
 
@@ -102,5 +105,5 @@ document.addEventListener("DOMContentLoaded", () => {
 let path = window.location.pathname;
 
   mentos('Markos Calderon', path);
-  //console.log("Content Loaded");
+  //console.log("Content Loaded"); //DEBUG
 });
