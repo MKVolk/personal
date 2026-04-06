@@ -33,6 +33,7 @@ function handleResize() {
   
   if (width > 770) {
     menuBarClose();
+    headerSetDesktop();
     console.log("Desktop view active");
   }
 }
@@ -50,6 +51,11 @@ function menuBarClose (){
   document.getElementById("navBar").style.overflowY="hidden";
   document.getElementById("pokediv").style.paddingBottom="0px";
   document.getElementById("menuOpen").style.display="inline";
+  document.getElementById("menuClose").style.display="none";
+}
+function headerSetDesktop (){
+  document.getElementById("navBar").style.height="auto";
+  document.getElementById("menuOpen").style.display="none";
   document.getElementById("menuClose").style.display="none";
 }
 
