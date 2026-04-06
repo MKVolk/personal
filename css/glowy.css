@@ -67,6 +67,11 @@ header {
     justify-content:space-between;
     align-items:center;
 }
+#pokediv > h1{ /*Header Title Speciffic styling*/
+    font-family: montserrat, ubuntu, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
 .menu {
     border: none;
     box-shadow: none;

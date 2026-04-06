@@ -31,7 +31,7 @@ body {
 }
 
 
-button, .entry, footer {
+button, .entry, footer, header {
     background: #eaeaea;
     border-radius: 12px;
     box-shadow: 
