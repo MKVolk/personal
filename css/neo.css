@@ -121,6 +121,7 @@ nav{
 nav button {
     margin: 0 5px;
     font-size: 1em;
+    box-shadow: 5px 5px 10px 0px #c5c8ce, -5px -5px 9px #ffffff;
 }
 
 /* Content */
