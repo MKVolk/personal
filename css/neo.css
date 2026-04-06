@@ -190,7 +190,7 @@ footer {
     overflow-y: hidden;
 }
 
-/* Mobile :3 */
+/* Mobile */
 @media screen and (max-width: 770px){
     header{
         flex-direction: column;
@@ -219,6 +219,7 @@ footer {
     #menuClose { display:none; }
 }
 
+/* Desktop */
 @media screen and (min-width: 771px){
     #menuOpen  { display:none; }
     #menuClose { display:none; }

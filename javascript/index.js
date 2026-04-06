@@ -2,7 +2,6 @@ import { genHeader, genFooter } from "./mentos.js";
 
 // Mentos Generator
 function mentos(title, route){
-  //setStyle();
   genHeader(title);
   genFooter(route);
   //console.log("mentos() executed"); //DEBUG
@@ -28,25 +27,14 @@ function getCookie(name) {
     return null;
 }
 
-function setStyle(){
-  let theme = getCookie("theme");
-  //const link = document.querySelector("link[rel='stylesheet']");
-  const link = document.querySelector("link#styleLink[rel='stylesheet']");
-
-  if (!link) return;
-
-  if(theme){
-    if (theme == "dark"){
-      link.setAttribute("href", "css/glowy.css");
-    }
-    if (theme == "light"){
-      link.setAttribute("href", "css/neo.css");
-    }
+function handleResize() {
+  const width = window.innerWidth;
+  console.log(`The current screen width is: ${width}px`);
+  
+  if (width > 770) {
+    menuBarClose();
+    console.log("Desktop view active");
   }
-  else{
-    link.setAttribute("href", "css/neo.css"); //default theme
-  }
-  console.log("SetStyle() Executed") //DEBUG
 }
 
 //Opens menu bar for Mobile miew
@@ -64,6 +52,7 @@ function menuBarClose (){
   document.getElementById("menuOpen").style.display="inline";
   document.getElementById("menuClose").style.display="none";
 }
+
 //Makes the glowy effect work when the menu is open
 function overShadow (){
   document.getElementById("navBar").style.overflowY="overflow";
@@ -108,3 +97,5 @@ let path = window.location.pathname;
   mentos('Markos Calderon', path);
   //console.log("Content Loaded"); //DEBUG
 });
+
+window.addEventListener('resize', handleResize);
