@@ -20,12 +20,21 @@
 <body>
   <header></header>
   <main>
-    <div class="contentFlex">
-      <model-viewer src="media/vaporPC.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" exposure="0.84" shadow-softness="0" auto-rotate min-camera-orbit="auto 62deg auto" max-camera-orbit="auto 87deg auto">
-    <div class="progress-bar hide" slot="progress-bar">
+    <div class="contentGrid">
+      <model-viewer src="media/vaporPC.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1.22" exposure="0.67" shadow-softness="0.78" min-camera-orbit="auto 42deg auto" max-camera-orbit="auto 102deg auto" auto-rotate>
+        <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
-    </div>
-</model-viewer>
+        </div>
+      </model-viewer>
+      <div class="entry">
+                <div class="introtitle" id="IntroTitle">
+                    <h3>Hi! 👋</h3>
+                    <h3>My name is Markos Calderon</h3>
+                    <!--<i>02/15/2025</i>-->
+                </div>
+                <p>I am a <b>Computer Science</b> Student at University of North Florida</p>
+                <p></p>
+            </div>
     </div>
     <div class="contentGrid">
         <iframe src="index.html" width="100%" height="500px"></iframe>

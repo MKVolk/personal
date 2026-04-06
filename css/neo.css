@@ -199,6 +199,10 @@ footer {
     overflow-y: hidden;
 }
 
+.userInput{
+    background-color:#12c1c9;
+}
+
 /* Mobile */
 @media screen and (max-width: 770px){
     header{
