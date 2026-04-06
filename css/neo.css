@@ -30,6 +30,9 @@ body {
     margin: 0;
 }
 
+main{
+    padding-bottom: 5em;
+}
 
 button, .entry, footer{
     background: #eaeaea;
@@ -126,7 +129,6 @@ nav button {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     width: 100%;
     box-sizing: border-box;
-    padding: 0em 0em 5em 0em;
 }
 .contentGrid > * {
     min-width: 0;
@@ -135,7 +137,6 @@ nav button {
 .contentFlex{
     display: flex;
     flex-direction: column;
-    padding: 0em 0em 5em 0em;
 }
 
 .entry {

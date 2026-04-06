@@ -29,6 +29,11 @@ body {
     background-color: #000000;
     margin: 0;
 }
+
+main{
+    padding-bottom: 5em;
+}
+
 button {
     font-family: inherit;
     color: #bbbaba;
@@ -96,7 +101,6 @@ nav button {
 .contentGrid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 0em 0em 5em 0em;
 }
 .contentGrid > * {
     min-width: 0;
@@ -106,7 +110,6 @@ nav button {
 .contentFlex{
     display: flex;
     flex-direction: column;
-    padding: 0em 0em 5em 0em;
     margin: 15px 0;
 }
 
