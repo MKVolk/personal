@@ -86,6 +86,7 @@ export function genFooter(route) {
     styleBtn.className = "stylechanger";
     styleBtn.id = "css1";
     styleBtn.setAttribute("onclick", "toggleTheme('css/glowy.css', 'css/neo.css')");
+    styleBtn.textContent = 'R';
 
     // append button to stylesheets
     stylesheets.appendChild(styleBtn);

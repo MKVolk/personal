@@ -162,8 +162,10 @@ footer {
 }
 .stylechanger {
     border-radius: 5px;
-    margin: 0 5px 0 5px;
-    width:20px;
+    font-family: 'yarndings12', sans-serif;
+    font-size: 1em;
+    margin: 0 5px;
+    padding: 0.3em;
 }
 
 .entry .introtitle{
