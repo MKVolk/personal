@@ -29,7 +29,7 @@ function getCookie(name) {
 
 function handleResize() {
   const width = window.innerWidth;
-  console.log(`The current screen width is: ${width}px`);
+  //console.log(`The current screen width is: ${width}px`); //DEBUG
   
   if (width > 770) {
     menuBarClose();
