@@ -34,11 +34,10 @@ function handleResize() {
   if (width > 770) {
     menuBarClose();
     headerSetDesktop();
-    console.log("Desktop view active"); //DEBUG
+    //console.log("Desktop view active"); //DEBUG
   } else{
     menuBarClose();
-    //headerSetMobile();
-    console.log("Mobile view active"); //DEBUG
+    //console.log("Mobile view active"); //DEBUG
   }
 }
 
@@ -60,11 +59,6 @@ function menuBarClose (){
 function headerSetDesktop (){
   document.getElementById("navBar").style.height="auto";
   document.getElementById("menuOpen").style.display="none";
-  document.getElementById("menuClose").style.display="none";
-}
-function headerSetMobile (){
-  //document.getElementById("navBar").style.height="auto";
-  document.getElementById("menuOpen").style.display="inline";
   document.getElementById("menuClose").style.display="none";
 }
 
