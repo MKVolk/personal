@@ -30,6 +30,8 @@ function getCookie(name) {
 function handleResize() {
   const width = window.innerWidth;
   //console.log(`The current screen width is: ${width}px`); //DEBUG
+  document.querySelector('model-viewer').style.width = '30vw';
+  document.getElementById('vapor3D').style.width='30vw';
   
   if (width > 770) {
     menuBarClose();
