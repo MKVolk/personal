@@ -22,7 +22,7 @@
   <main>
     <div style="display:grid; grid-auto-flow:column; justify-content:start">
       <div class="entry" style=" width: 150px; display: flex; align-content: center;justify-content:center; background-color: #12c1c9;">
-        <model-viewer style="width: 150px;" src="media/vaporPC.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="media/VaporPc.gif" shadow-intensity="1.22" exposure="0.67" shadow-softness="0.78" min-camera-orbit="auto 42deg auto" max-camera-orbit="auto 102deg auto" auto-rotate rotation-per-second="90deg" interaction-prompt="none" >
+        <model-viewer style="width: 150px;" src="media/MotorreductorWheel.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="media/VaporPc.gif" shadow-intensity="1.22" exposure="0.67" shadow-softness="0.78" min-camera-orbit="auto 42deg auto" max-camera-orbit="auto 102deg auto" auto-rotate rotation-per-second="90deg" interaction-prompt="none" >
           <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
           </div>
@@ -32,6 +32,16 @@
           </div>
         </model-viewer>
       </div>
+      <div class="entry" style=" width: 150px; display: flex; align-content: center;justify-content:center; background-color: #12c1c9;">
+        <model-viewer  style="width: 150px;" src="media/MotorreductorWheel3.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="none" shadow-intensity="0.26" autoplay shadow-softness="0.44" auto-rotate camera-orbit="107.5deg 76.01deg 0.191m" field-of-view="30deg" min-camera-orbit="auto auto 0.1759m" min-field-of-view="25.6deg" auto-rotate rotation-per-second="90deg" interaction-prompt="none">
+          <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+          </div>
+          <button slot="ar-button" id="ar-button" style="display:none;"></button>
+          <div id="ar-prompt" style="display:none;"> </div>
+        </model-viewer>
+      </div>
+
       <div class="entry">
                 <div class="introtitle" id="IntroTitle">
                     <h3>Hi! 👋</h3>
