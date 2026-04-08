@@ -126,6 +126,7 @@ nav button {
     border: 1px solid #fff;
     margin: 15px;
     border-radius: 5px;
+    justify-content: space-between;
 }
 .entry img {
     max-width: 100%;
@@ -141,6 +142,7 @@ nav button {
 
 tag {
     background-color: #808080;
+    font-size:9pt;
     padding: 0.3em;
     margin: 0.2em;
     border-radius: 0.3em;
