@@ -123,9 +123,9 @@ nav button {
     flex-direction: column;
     padding: 10px;
     box-shadow: 0 0 10px 1px #ffffff60;
-    border: 1px solid #fff;
+    border: 2px solid #bbb;
     margin: 15px;
-    border-radius: 15px;
+    border-radius: 22px;
     justify-content: space-between;
 }
 .entry img {
