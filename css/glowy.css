@@ -125,7 +125,7 @@ nav button {
     box-shadow: 0 0 10px 1px #ffffff60;
     border: 1px solid #fff;
     margin: 15px;
-    border-radius: 5px;
+    border-radius: 15px;
     justify-content: space-between;
 }
 .entry img {
