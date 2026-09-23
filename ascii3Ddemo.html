@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>three.js webgl - effects - ascii</title>
+		<title>Huh??</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<meta property="og:title" content="three.js webgl - effects - ascii">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://threejs.org/examples/webgl_effects_ascii.html">
 		<meta property="og:image" content="https://threejs.org/examples/screenshots/webgl_effects_ascii.jpg">
-		<link type="text/css" rel="stylesheet" href="main.css">
+		<link type="text/css" rel="stylesheet" href="css/letter.css">
 	</head>
 
-	<body style="background-color:black; color:white">
+	<body>
         <h2>Huh?</h2>
         <h2> I may say you are here quite too early :/</h2>
 
-        <p>Have some fun with the ominous rotating object</p>
+        <p>Have some fun with the ominous rotating object in the meantime</p>
 		<script type="importmap">
 			{
 				"imports": {
@@ -74,7 +74,7 @@
 
 				effect = new AsciiEffect( renderer, ' .:-+*=%@#', { invert: true } );
 				effect.setSize( window.innerWidth, window.innerHeight );
-				effect.domElement.style.color = 'white';
+				effect.domElement.style.color = '#b3fffc';
 				effect.domElement.style.backgroundColor = 'black';
 
 				// Special case: append effect.domElement, instead of renderer.domElement.

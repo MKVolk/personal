@@ -1,0 +1,44 @@
+:root{
+    --main-bg-color: black;
+    --main-text-color: #b3fffc;
+    --main-accent-color: rgb(110, 249, 251);
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yarndings12';
+  src: url('../fonts/Yarndings12-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bitcount';
+  src: url('../fonts/BitcountSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+    color:var(--main-text-color);
+    background-color: black;
+    font-family: montserrat, Helvetica, sans-serif;
+}
+
+button{
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+
+}
+
+input[type=text]{
+    border: 2px solid var(--main-accent-color);
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
