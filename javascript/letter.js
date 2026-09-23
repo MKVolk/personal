@@ -1,8 +1,8 @@
 // ======= Global Variables =========
 
 const par1 = "Oh hi, as for you stumbling on this letter, (hopefully not in a literal way) I only have a message for you: meow meow meow";
-const par2 = "No, I actually am here to talk you about a word, a word chased after by millions, from dawn to sunset, maybe some earlier. Funny silly endeavor you hold dear. Come back once you got that word";
-const par3 = "";
+const par2 = "No, I actually am here to talk you about a word, a word chased after by millions, from dawn to sunset, some start even earlier. Funny silly endeavor you hold dear, today you will use it twice :3";
+const par3 = "Yah, IK that aint ryming, but you got the message";
 const par4 = "";
 
 const letter = new Array(par1, par2, par3, par4);
