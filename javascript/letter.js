@@ -1,9 +1,47 @@
-let par1 = "Oh hi, as for you stumbling on this letter, (hopefully not in a literal way) I only have a message for you: meow meow meow";
-let par2 = "";
-let par3 = "";
-let par4 = "";
+// ======= Global Variables =========
 
-let letter = new Array(par1, par2, par3, par4);
+const par1 = "Oh hi, as for you stumbling on this letter, (hopefully not in a literal way) I only have a message for you: meow meow meow";
+const par2 = "No, I actually am here to talk you about a word, a word chased after by millions, from dawn to sunset, maybe some earlier. Funny silly endeavor you hold dear. Come back once you got that word";
+const par3 = "";
+const par4 = "";
+
+const letter = new Array(par1, par2, par3, par4);
+
+// ========= Setup ===========
+composeSetup(letter);
+
+// ========= Letter section ========
+function composeSetup(letter) {
+    const container = document.getElementById("t_container");
+
+    letter.forEach((text, index) => {
+        const paragraph = document.createElement("p");
+
+        paragraph.id = "par" + index;
+        paragraph.textContent = text;
+
+        container.appendChild(paragraph);
+    });
+}
+
+function compose(letter) {
+
+    letter.forEach((ciphertext, index) => {
+        const paragraph = document.getElementById("par" + index);
+        paragraph.textContent = ciphertext;
+    });
+}
+
+function composeDecode(letter) {
+    const word = document.getElementById("d_input").value;
+
+
+    letter.forEach((ciphertext, index) => {
+        const paragraph = document.getElementById("par" + index);
+        paragraph.textContent = decode(ciphertext, word);
+    });
+}
+
 
 function encode(text, word) {
   let result = "";
@@ -85,8 +123,6 @@ function decode(ciphertext, word) {
 }
 
 
-
-
 // Debug
 console.log(decode("Khoor123", "key"));
 
@@ -96,6 +132,20 @@ const encoded = encode("Hello123", "key");
 console.log(encoded);
 // decodes this
 console.log(decode(encoded, "key"));
+
+// ====== Decode button =======
+document.getElementById("d_button").addEventListener("click", function () {
+
+    const word = document.getElementById("d_input").value;
+
+    if (word.trim() === "") {
+        compose(letter);
+        return;
+    }
+
+    composeDecode(letter);
+});
+
 
 // =========== Encoder section ==============
 document.getElementById("e_button").addEventListener("click", function () {

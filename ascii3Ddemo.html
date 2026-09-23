@@ -42,7 +42,7 @@
 
 			function init() {
 
-				camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 1000 );
+				camera = new THREE.PerspectiveCamera( 80, window.innerWidth / window.innerHeight, 1, 1000 );
 				camera.position.y = 150;
 				camera.position.z = 500;
 
@@ -106,7 +106,7 @@
 
 				const timer = Date.now() - start;
 
-				sphere.position.y = Math.abs( Math.sin( timer * 0.002 ) ) * 150;
+				sphere.position.y = Math.abs( Math.sin( timer * 0.0005 ) ) * 150;
 				sphere.rotation.x = timer * 0.0003;
 				sphere.rotation.z = timer * 0.0002;
 
