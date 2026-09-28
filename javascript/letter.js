@@ -3,9 +3,9 @@
 const par1 = "Oh hi, as for you stumbling on this letter, (hopefully not in a literal way) I only have a message for you: meow meow meow";
 const par2 = "No, I actually am here to talk you about a word, a word chased after by millions, from dawn to sunset, some start even earlier. Funny silly endeavor you hold dear, today you will use it twice :3";
 const par3 = "I know none of this rhymes or something, but I hope you got the hint.";
-const par4 = "Bcn, rvz ufm py ulrz, N yexd dcl vvzzu! Tudkrrz, bfzmpsu r elyhvk px glvo fb vgkjomhy, N ufm h bvfel hwgalw ogisnqrmptb anzy hf dphy kapx rfpu yvv kvfr napqs Z wv xcdxamwez P fa eha gou ta nbjmlfr, sna dcl dutk dx, mjscbulg rbuy ap monbx :2. Ojfv vvrsj ff gsjm awm rgfbopl.";
-const par5 = "Mwyb, py wj jbnhv lvrskapsu kh dwwkx, snyv bu lsexyfz, Z ahys zm zt trk, izh jhtjhybul qfflx hf fpsr Z loticw tjbkbvs, hyxyj wj t yfqthvs krernbx ihxh dx ys. Wk klfzcr amwedz nhj vhrclysfuv bz iczgn f ufhk ocs, ba ng eha. N ulxzx hyta'x wk, B dticw yfhyxy bfzml dcl mowclzo hcux hsr xkhuvzvz gik ba moj tsxc zmz qwdbafhzhux, mfn snyv pvwrj tui W cbrj hyxt ycf, jbnhv t sth rvazocef, N od lv gou ta nh kavzuy. B yjocef bwja P hclek robx amwj elxg rganqcbtfqkbj, gik rvz yehd, yvv elyhvk px hyx mwwvgkx kv fhis revsu kal bop hy xcdxamwez ^^.";
-const par6 = "UG. Uh uth wkly, qffl kci fvws likfhvl, fti dtf wstxpas rg hhhlts qskmlw cevl N od hu yvv fvtr.";
+const par4 = "Pfq, lyn xig sm xolc, B bhrg rfo pyncx! Nxrnulc, picgsgx u yomkye sl jopr te yanxrpbb, B xig k pyiyo vzjuok rjcvbtugshe dhcm ki xsvb nusl uijx myy eytu qusev C qy lfgrdazht S td hbd urx nd bemgotu, vhd rfo xxhn gr, pxvfvxzj uvxm ds grbea :). Uokv wbwxj gl lxjn gbr rhlgtpm.";
+const par5 = "Azbv, sm zm debky fyfvnusgx nb gkznr, vbby vx zvhrbtc, C ukmv cg ch wue, lnk mbwxkbvxz tizol ki zsgu C frhlfq wxenvyg, kbrbx zm n bttwbyg nuyubea cklk gr bg. Zn eotcfl dazhxc bkm pkffosvtxy vc wfcaq t xibn cfv, vd bj hbd. B xorcl kbnd'l zn, V ghlfq btkbrb picgo rfo grkfotr vfxr kgu aekiycpc uln vd arm nvlf cgc ezgvdtkcbxl, pih vbby jykum nxw Z fvux kbrw mfi, debky n vhk updnrfyi, B rg fy urx nd bk nuynxb. V bxrfyi pzmu S vfoyn frer dazm yolj uadbtfvwttnvm, uln lyn bhbg, myy yomkye sl kbr pkzyanl ny zkwv uyygx nuo prs bb lfgrdazht ^^.";
+const par6 = "IJ. Xb xhk zeom, tizo yfl zykv ocntkyf, ihl gni kvwrsov ua kvkonv evngok fhpo B rg bx myy zyhu.";
 
 const letter = new Array(par1, par2, par3, par4, par5, par6);
 
