@@ -11,7 +11,7 @@ const par8 = "B.D.R.Z. Yait sefhgy wmg uv cghg hnp dtltfm cud ec qynmagutqr, c d
 const par9 = "B.D.R.W.S. Kcw oahs kudqsf pmbfqcep mqbr qmg-jozhcjt eyksle. Wv lxbzcpne hjl rmbfvm sobls U fgjeujg mraa avu. U'a isap W ehn zcy 'nihs voey o phmq'. W ypst hjlrq kcz a ekkact W evuxr wze fc ohkq mqb lqgu uedjqbs. Mzuv, ttoprs rct arkwpn ta acre ys cjuehqt or vwns, U fghlxm cwpdsepafs voe qthvrf. Aqzt at voe fwol I ma pbmn hq lmahkvne pwa ttov'z oz ag. Vnos ku a nzwl macp, ty nfcpn ictrs mg ka ie gwwpaggk ta opk I ywuz ttso.";
 const par10 = "B.D.R.W.P.E. Hjl sabi ps cikae scqk, pact jrqovbrq, kcptubi mod gqtefvkug ec wucqfvhiz.";
 
-const letter = new Array(par1, par2, par3, par4, par5, par6, par7, par9, par10);
+const letter = new Array(par1, par2, par3, par4, par5, par6, par7, par8, par9, par10);
 
 // ========= Setup ===========
 composeSetup(letter);
